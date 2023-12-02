@@ -1,2 +1,5 @@
 # APIM-AOAI-Proxy
-Setup APIM as Azure OpenAI proxy, capture tokens and store at DB for report
+
+Setup APIM as Azure OpenAI proxy, capture tokens and store at DB for reporting.
+![Alt text](image.png)
+`ssdfd`
