@@ -52,7 +52,7 @@ Login Azure portal and create following resources, here use Azure China as examp
 
 ### APIM
 
-- Use below PowerShell cmdlet to create API Management logger.
+- Use below PowerShell cmdlet to create API Management logger. Detail information can refer to [How to log events to Azure Event Hubs in Azure API Management](https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-log-event-hubs?tabs=PowerShell)
 
 ```PowerShell
 # API Management service-specific details
