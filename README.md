@@ -35,4 +35,4 @@ Login Azure portal and create following resources, here use Azure China as examp
   - _Version_ - 3.11
   - _Operating System_ - Linux
   - _Hosting Plan_ - any plan except Consumption plan
-- **SQL Database**: Any SKU can be chosen depends on your workload, meanwhile configure appropriate firewall rule which can allow access from your Azure Function App, your tool machine, as well as Power BI service. [content](DBScript\aoaieventdb.sql)
+- **SQL Database**: Any SKU can be chosen depends on your workload, meanwhile configure appropriate firewall rule which can allow access from your Azure Function App, your tool machine, as well as Power BI service. [content](DBScript/aoaieventdb.sql)
