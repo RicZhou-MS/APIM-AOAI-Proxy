@@ -35,4 +35,35 @@ Login Azure portal and create following resources, here use Azure China as examp
   - _Version_ - 3.11
   - _Operating System_ - Linux
   - _Hosting Plan_ - any plan except Consumption plan
-- **SQL Database**: Any SKU can be chosen depends on your workload, meanwhile configure appropriate firewall rule which can allow access from your Azure Function App, your tool machine, as well as Power BI service. [content](DBScript/aoaieventdb.sql)
+- **SQL Database**: Any SKU can be chosen depends on your workload, meanwhile configure appropriate firewall rule which can allow access from your Azure Function App, your tool machine, as well as Power BI service.
+
+## Environment Setup
+
+### SQL Database
+
+- login the SQL Database we just created via SSMS, and execute [SQL script](DBScript/aoaieventdb.sql) to create table schema.
+- There is partial of model pricing rate information provisioned into tabel **AoaiTokenRate**, you can update or provision your own version according to your model name and corresponding price.
+
+### Event Hub
+
+- Go to the Event Hub Namespace which just created at above steps, create a event hub instance
+- Click **Shared access policies** of the instance, create a SAS Policy and give **Send** and **Listen** policy, remember the **connection string** for later use.
+  ![Alt text](images/image.png)
+
+### APIM
+
+- Use below PowerShell cmdlet to create API Management logger.
+
+```PowerShell
+# API Management service-specific details
+$apimServiceName = "<Your APIM name>"
+$resourceGroupName = "<Your APIM resource group>"
+
+# Create logger
+$context = New-AzApiManagementContext -ResourceGroupName $resourceGroupName -ServiceName $apimServiceName
+New-AzApiManagementLogger -Context $context -LoggerId "event-hub-logger" -Name "<your event hub name>" -ConnectionString "<your event hub connection string>" -Description "Event hub logger with connection string"
+```
+
+(**NOTE**: Make sure LoggerId set to **event-hub-logger**,otherwise you will need change loggerId in APIM policy at later steps accordingly)
+
+- Import OpenAI swagger file.
