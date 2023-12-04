@@ -67,7 +67,7 @@ New-AzApiManagementLogger -Context $context -LoggerId "event-hub-logger" -Name "
 (**NOTE**: Make sure LoggerId set to _**event-hub-logger**_,otherwise you will need change loggerId in APIM policy at later steps accordingly)
 
 - Open [this github folder](https://github.com/Azure/azure-rest-api-specs/tree/main/specification/cognitiveservices/data-plane/AzureOpenAI/inference/stable) via browser, click into latest version folder (**2023-05-15** is the latest version folder when write this blog).
-- Download the **inference.json** to tool machine. - Open **inference.json** in vscode at tool machine, change the **servers** property to make the **url** and **endpoint** properties pointing to your Azure OpenAI API instance created previously.
+- Download the **inference.json** to tool machine. - Open **inference.json** in vscode at tool machine, change the **servers** property to make the **url** and **endpoint** properties pointing to your Azure OpenAI API instance [created previously](#anchor1).
   ```JSON
     "servers": [
       {
