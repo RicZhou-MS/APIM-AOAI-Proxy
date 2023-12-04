@@ -1,0 +1,26 @@
+<policies>
+	<inbound>
+		<base />
+		<!--specify forward to which backend openai endpoint and corresponding openai key -->
+		<set-backend-service backend-id="aoai-backend02" />
+		<set-header name="api-key" exists-action="override">
+			<value>{{aoai-backend02-key}}</value>
+		</set-header>
+		<set-variable name="v-request-json" value="@(context.Request.Body?.As<string>(preserveContent: true))" />
+	</inbound>
+	<backend>
+		<forward-request buffer-response="true" />
+	</backend>
+	<outbound>
+		<base />
+		<log-to-eventhub logger-id="event-hub-logger">@{
+            string request_str = (string)context.Variables["v-request-json"];
+            string response_str = context.Response.Body?.As<string>(preserveContent: true);
+            string output_str = "Request\n ===================\n" + request_str + "\n===================\nResponse\n===================\n" + response_str ;
+            return output_str;
+        }</log-to-eventhub>
+	</outbound>
+	<on-error>
+		<base />
+	</on-error>
+</policies>

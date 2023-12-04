@@ -66,4 +66,29 @@ New-AzApiManagementLogger -Context $context -LoggerId "event-hub-logger" -Name "
 
 (**NOTE**: Make sure LoggerId set to **event-hub-logger**,otherwise you will need change loggerId in APIM policy at later steps accordingly)
 
-- Import OpenAI swagger file.
+- Import OpenAI in inference API definition into APIM.
+  - Go to https://github.com/Azure/azure-rest-api-specs/tree/main/specification/cognitiveservices/data-plane/AzureOpenAI/inference/stable, click into latest version folder (**2023-05-15** is the latest version folder when write this blog).
+  - Download the **inference.json** to tool machine. - Open **inference.json** in vscode at tool machine, change the **servers** property to make the **url** and **endpoint** properties pointing to your Azure OpenAI API instance created previously.
+  ```JSON
+    "servers": [
+      {
+      "url": "https://<aoai_endpoint_name>.openai.azure.com/openai",
+      "variables": {
+          "endpoint": {
+          "default": "<aoai_endpoint_name>.openai.azure.com"}
+          }
+      }
+    ],
+  ```
+  - Import the updated **inference.json** file in APIM as below capture, select **API**, then choose **Add API**, click **OpenAPI**
+    ![Alt text](images/image-1.png)
+    At Create from OpenAPI specification page, choose **Full**, select and import **inference.json**, set **openai** at API URL suffix field. click **Create** button.
+    ![Alt text](images/image-2.png)
+    When the import creation complete, click **setting**, rename the subscription key verification header as **api-key**.
+    ![Alt text](images/image-3.png)
+- Create a named value for your Azure OpenAI API key. To creat a named value, see [using named values in Azure API Management polices](https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-properties?tabs=azure-portal). Take note of the Display name you give your named value as it is needed in next steps. Here we set the name display name as **azure-openai-key**.
+  ![Alt text](images/image-4.png)
+- Similarly, add another named value with Name and Display name as **capture-streaming**,set the Type as **Plain**, set the value as **True**  
+  (**NOTE**: You can set it to **False** if you want to only capture streaming _request_ playload without capturing _response_ payload, this will give end-user real streaming experience)
+  ![Alt text](images/image-5.png)
+- Add **production**

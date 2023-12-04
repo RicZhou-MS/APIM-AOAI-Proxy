@@ -1,0 +1,1310 @@
+Request
+===================
+{"model": "text-davinci-003", "prompt": "\u5199\u4e2a\u4e2d\u6587\u5c0f\u8bf4\uff0c300\u5b57\u5de6\u53f3.", "max_tokens": 1500, "stream": true, "temperature": 0, "top_p": 0.95}
+
+Response
+===================
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"\n","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"\n","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"这","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"是","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"一","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"个","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"关","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"于","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"一","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"个","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"叫","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"小","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"明","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"小","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"男","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"孩","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"故","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"事","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"。","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"\n","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"\n","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"小","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"明","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"是","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"一","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"个","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"乐","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"观","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"开","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"朗","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"小","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"男","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"孩","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"每","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"天","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"都","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"会","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"笑","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"容","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"满","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"面","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"地","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"去","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"上","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"学","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"。","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"有","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"一","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"个","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"爱","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"家","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"庭","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"父母","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"总","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"是","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"给","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"最","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"好","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"一","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"切","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"也","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"有","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"一","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"群","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"忠","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"实","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"朋","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"友","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"。","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"\n","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"\n","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"小","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"明","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"有","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"一","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"个","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"梦","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"想","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"就","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"是","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"想","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"成","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"为","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"一","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"名","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"伟","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"大","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"科","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"学","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"家","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"每","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"天","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"都","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"会","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"花","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"大","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"量","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"时","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"间","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"来","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"学","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"习","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"也","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"会","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"经","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"常","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"去","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"图","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"书","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"馆","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"看","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"书","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"梦","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"想","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"就","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"是","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"要","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"改","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"变","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"世","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"界","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"。","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"\n","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"\n","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"有","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"一","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"天","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"小","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"明","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"发","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"现","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"了","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"一","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"个","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"神","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"奇","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"秘","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"密","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"发","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"现","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"了","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"一","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"种","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"新","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"能","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"源","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"这","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"种","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"能","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"源","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"可","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"以","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"让","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"世","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"界","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"变","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"得","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"更","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"美","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"好","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"。","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"小","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"明","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"把","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"这","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"个","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"秘","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"密","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"告","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"诉","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"了","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"父母","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"们","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"都","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"很","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"高","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"兴","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"们","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"也","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"帮","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"助","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"小","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"明","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"去","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"实","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"现","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"梦","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"想","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"。","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"\n","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"\n","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"最","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"后","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"小","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"明","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"成","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"功","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"了","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"发","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"明","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"改","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"变","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"了","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"世","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"界","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"也","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"成","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"为","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"了","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"一","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"名","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"伟","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"大","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"科","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"学","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"家","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"。","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"梦","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"想","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"终","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"于","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"实","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"现","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"了","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"也","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"得","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"到","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"了","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"众","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"多","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"赞","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"誉","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"和","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"尊","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"重","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"。","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"\n","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"\n","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"小","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"明","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"故","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"事","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"告","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"诉","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"我","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"们","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"只","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"要","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"我","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"们","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"有","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"梦","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"想","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"勇","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"敢","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"去","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"追","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"求","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"就","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"一","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"定","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"能","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"够","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"实","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"现","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"。","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"","index":0,"finish_reason":"stop","logprobs":null}],"usage":null}
+
+data: [DONE]
+
+
+[2023-11-28T02:25:08.023Z] AOAI-Total events received in one time function call: 1
+[2023-11-28T02:25:08.023Z] AOAI-Request
+ ===================
+{"model": "text-davinci-003", "prompt": "\u5199\u4e2a\u4e2d\u6587\u5c0f\u8bf4\uff0c300\u5b57\u5de6\u53f3.", "max_tokens": 1500, "stream": true, "temperature": 0, "top_p": 0.95}
+===================
+Response
+===================
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"\n","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"\n","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"这","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"是","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"一","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"个","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"关","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"于","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"一","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"个","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"叫","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"小","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"明","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"小","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"男","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"孩","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"故","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"事","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"。","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"\n","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"\n","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"小","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"明","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"是","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"一","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"个","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"乐","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"观","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"开","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"朗","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"小","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"男","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"孩","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"每","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"天","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"都","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"会","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"笑","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"容","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"满","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"面","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"地","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"去","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"上","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"学","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"。","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"有","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"一","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"个","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"爱","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"家","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"庭","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"父母","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"总","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"是","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"给","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"最","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"好","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"一","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"切","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"也","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"有","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"一","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"群","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"忠","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"实","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"朋","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"友","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"。","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"\n","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"\n","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"小","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"明","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"有","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"一","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"个","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"梦","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"想","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"就","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"是","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"想","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"成","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"为","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"一","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"名","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"伟","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"大","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"科","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"学","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"家","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"每","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"天","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"都","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"会","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"花","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"大","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"量","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"时","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"间","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"来","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"学","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"习","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"也","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"会","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"经","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"常","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"去","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"图","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"书","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"馆","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"看","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"书","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"梦","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"想","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"就","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"是","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"要","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"改","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"变","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"世","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"界","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"。","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"\n","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"\n","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"有","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"一","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"天","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"小","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"明","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"发","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"现","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"了","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"一","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"个","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"神","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"奇","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"秘","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"密","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"发","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"现","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"了","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"一","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"种","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"新","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"能","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"源","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"这","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"种","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"能","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"源","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"可","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"以","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"让","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"世","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"界","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"变","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"得","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"更","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"美","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"好","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"。","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"小","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"明","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"把","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"这","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"个","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"秘","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"密","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"告","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"诉","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"了","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"父母","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"们","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"都","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"很","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"高","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"兴","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"们","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"也","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"帮","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"助","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"小","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"明","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"去","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"实","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"现","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"梦","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"想","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"。","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"\n","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"\n","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"最","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"后","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"小","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"明","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"成","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"功","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"了","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"发","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"明","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"改","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"变","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"了","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"世","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"界","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"也","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"成","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"为","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"了","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"一","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"名","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"伟","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"大","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"科","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"学","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"家","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"。","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"梦","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"想","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"终","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"于","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"实","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"现","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"了","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"他","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"也","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"得","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"到","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"了","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"众","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"多","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"赞","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"誉","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"和","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"尊","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"重","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"。","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"\n","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"\n","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"小","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"明","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"的","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"故","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"事","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"告","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"诉","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"我","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"们","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"只","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"要","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"我","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"们","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"有","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"梦","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"想","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"勇","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"敢","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"去","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"追","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"求","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"，","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"就","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"一","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"定","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"能","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"够","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"实","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"现","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"。","index":0,"finish_reason":null,"logprobs":null}],"usage":null}
+
+data: {"id":"cmpl-8Pi4FoLsKRV1r1dR4YrYJzdQgyRMX","object":"text_completion","created":1701138287,"model":"text-davinci-003","choices":[{"text":"","index":0,"finish_reason":"stop","logprobs":null}],"usage":null}
+
+data: [DONE]
+

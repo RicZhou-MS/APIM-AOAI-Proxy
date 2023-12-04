@@ -1,0 +1,8 @@
+Request
+===================
+{"messages": [{"role": "system", "content": "You are an AI assistant that helps people find information."}, {"role": "user", "content": "\u8bf7\u8bb2\u4e2a\u7b11\u8bdd\uff0c30\u5b57\u5de6\u53f3"}], "model": "gpt-4", "frequency_penalty": 0, "max_tokens": 1500, "presence_penalty": 0, "stop": null, "temperature": 0, "top_p": 0.95}
+
+
+Response
+===================
+{"id":"chatcmpl-8Phz2VNYJsgaFnNxJ5sOwE4sn7chc","object":"chat.completion","created":1701137964,"model":"gpt-4","prompt_filter_results":[{"prompt_index":0,"content_filter_results":{"hate":{"filtered":false,"severity":"safe"},"self_harm":{"filtered":false,"severity":"safe"},"sexual":{"filtered":false,"severity":"safe"},"violence":{"filtered":false,"severity":"safe"}}}],"choices":[{"index":0,"finish_reason":"stop","message":{"role":"assistant","content":"当然可以。这是一个简短的笑话：“为 什么电脑永远不会感冒？因为它有Windows（窗户）。”"},"content_filter_results":{"hate":{"filtered":false,"severity":"safe"},"self_harm":{"filtered":false,"severity":"safe"},"sexual":{"filtered":false,"severity":"safe"},"violence":{"filtered":false,"severity":"safe"}}}],"usage":{"prompt_tokens":33,"completion_tokens":45,"total_tokens":78}}

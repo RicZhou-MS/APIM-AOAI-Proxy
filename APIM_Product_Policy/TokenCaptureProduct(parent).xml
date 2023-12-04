@@ -1,0 +1,177 @@
+<policies>
+	<inbound>
+		<base />
+		<!--specify forward to which backend openai endpoint and corresponding openai key, which can be enhanced to support load blance in next version -->
+		<set-backend-service backend-id="aoai-backend02" />
+		<set-header name="api-key" exists-action="override">
+			<value>{{aoai-backend02-key}}</value>
+		</set-header>
+		<set-variable name="v-capture-setting" value="{{capture-streaming}}" />
+		<set-variable name="v-do-capture-streaming" value="@(((string)context.Variables["v-capture-setting"])?.Equals("true",StringComparison.OrdinalIgnoreCase) ?? false)" />
+		<set-variable name="v-request-json" value="@(context.Request.Body?.As<JObject>(preserveContent: true))" />
+		<set-variable name="v-is-streaming" value="@(((JObject)context.Variables["v-request-json"]).SelectToken("stream")?.ToString()?.Equals("True", StringComparison.OrdinalIgnoreCase) ?? false)" />
+		<set-variable name="v-is-embedding-call" value="@(context.Operation.Id.Equals("embeddings_create", StringComparison.OrdinalIgnoreCase))" />
+		<set-variable name="v-is-completion-call" value="@(context.Operation.Id.Equals("Completions_Create", StringComparison.OrdinalIgnoreCase))" />
+		<set-variable name="v-is-chat-completion-call" value="@(context.Operation.Id.Equals("ChatCompletions_Create", StringComparison.OrdinalIgnoreCase))" />
+	</inbound>
+	<backend>
+		<forward-request buffer-response="true" />
+	</backend>
+	<outbound>
+		<base />
+		<!-- prepare the common part of the log content -->
+		<set-variable name="v-log-json" value="@{
+            JObject request_json = (JObject)context.Variables["v-request-json"];
+            string execution_UTCtime = DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss");
+            string gateway_region = context.Deployment.Region;
+            string gateway_serviceName = context.Deployment.ServiceName;
+            string subscription_id = context.Subscription.Id;
+            string subscription_name = context.Subscription.Name;
+            string user_email = context.User.Email;
+            string user_name = (context.User.FirstName + " " + context.User.LastName).Trim();
+            string product_name = context.Product.Name;
+            string api_name = context.Api.Name;
+            string operation_Id = context.Operation.Id;
+            
+            JObject log_json = new JObject();
+            log_json.Add("ExecTimeUTC", execution_UTCtime);
+            log_json.Add("GatewayRegion", gateway_region);
+            log_json.Add("GatewayServiceName", gateway_serviceName);
+            log_json.Add("SubscriptionId", subscription_id);
+            log_json.Add("SubscriptionName", subscription_name);
+            log_json.Add("UserName", user_name);
+            log_json.Add("UserEmail", user_email);
+            log_json.Add("ProductName", product_name);
+            log_json.Add("ApiName", api_name);
+            log_json.Add("OperationId", operation_Id);
+            log_json.Add("Request", request_json);
+
+            return log_json; 
+        }" />
+		<choose>
+			<!-- only prepare full log and send to event hub in case OpenAI return success  -->
+			<when condition="@(context.Response.StatusCode == 200 )">
+				<choose>
+					<!-- proceed Chat Completion call -->
+					<when condition="@((bool)context.Variables["v-is-chat-completion-call"] )">
+						<choose>
+							<!-- proceed Chat Completion call in streaming mode -->
+							<when condition="@((bool)context.Variables["v-is-streaming"])">
+								<choose>
+									<!-- capture streaming for chat completion -->
+									<when condition="@((bool)context.Variables["v-do-capture-streaming"])">
+										<log-to-eventhub logger-id="event-hub-logger">@{
+                                            JObject log_json = (JObject)context.Variables["v-log-json"];
+                                            string response_str = context.Response.Body?.As<string>(preserveContent: true);
+                                            //get only the content streaming snippets and concatentate them
+                                            string pattern = "content\":\"(.*?)\"},\"content_filter";
+                                            MatchCollection matches = Regex.Matches(response_str, pattern);
+                                            string result = "";
+                                            foreach (Match match in matches)
+                                            {
+                                                result += match.Groups[1].Value;
+                                            }
+                                            log_json.Add("ResponseString",result);
+                                            return log_json.ToString();
+                                        }</log-to-eventhub>
+									</when>
+									<!-- do NOT capture streaming content for chat completion -->
+									<otherwise>
+										<log-to-eventhub logger-id="event-hub-logger">@{
+                                            JObject log_json = (JObject)context.Variables["v-log-json"];
+                                            //do not capture response, only return blank at response field when sent to event hub
+                                            log_json.Add("ResponseString","");
+                                            return log_json.ToString();
+                                        }</log-to-eventhub>
+									</otherwise>
+								</choose>
+							</when>
+							<!-- proceed Chat Completion call in non-streaming mode -->
+							<otherwise>
+								<log-to-eventhub logger-id="event-hub-logger">@{
+                                    JObject log_json = (JObject)context.Variables["v-log-json"];
+                                    string response_str = context.Response.Body?.As<string>(preserveContent: true);
+
+                                    log_json.Add("ResponseString",response_str);
+                                    return log_json.ToString();
+                                }</log-to-eventhub>
+							</otherwise>
+						</choose>
+					</when>
+					<!-- proceed Completion call -->
+					<when condition="@((bool)context.Variables["v-is-completion-call"] )">
+						<choose>
+							<!-- proceed Completion call in streaming mode -->
+							<when condition="@((bool)context.Variables["v-is-streaming"])">
+								<choose>
+									<!-- capture streaming for chat completion -->
+									<when condition="@((bool)context.Variables["v-do-capture-streaming"])">
+										<log-to-eventhub logger-id="event-hub-logger">@{
+                                            JObject log_json = (JObject)context.Variables["v-log-json"];
+                                            string response_str = context.Response.Body?.As<string>(preserveContent: true);
+                                            //get only the content streaming snippets and concatentate them
+                                            string pattern = "{\"text\":\"(.*?)\",\"index\":0";
+                                            MatchCollection matches = Regex.Matches(response_str, pattern);
+                                            string result = "";
+                                            foreach (Match match in matches)
+                                            {
+                                                result += match.Groups[1].Value;
+                                            }
+                                            log_json.Add("ResponseString",result);
+                                            //log_json.Add("ResponseString",response_str);
+                                            return log_json.ToString();
+                                        }</log-to-eventhub>
+									</when>
+									<!-- do NOT capture streaming content for chat completion -->
+									<otherwise>
+										<log-to-eventhub logger-id="event-hub-logger">@{
+                                            JObject log_json = (JObject)context.Variables["v-log-json"];
+                                            //do not capture response, only return blank at response field when sent to event hub
+                                            log_json.Add("ResponseString","");
+                                            return log_json.ToString();
+                                        }</log-to-eventhub>
+									</otherwise>
+								</choose>
+							</when>
+							<!-- proceed Completion call in non-streaming mode -->
+							<otherwise>
+								<log-to-eventhub logger-id="event-hub-logger">@{
+                                    JObject log_json = (JObject)context.Variables["v-log-json"];
+                                    string response_str = context.Response.Body?.As<string>(preserveContent: true);
+
+                                    log_json.Add("ResponseString",response_str);
+                                    return log_json.ToString();
+                                }</log-to-eventhub>
+							</otherwise>
+						</choose>
+					</when>
+					<!-- proceed Embedding call -->
+					<when condition="@((bool)context.Variables["v-is-embedding-call"] )">
+						<log-to-eventhub logger-id="event-hub-logger">@{
+                            JObject log_json = (JObject)context.Variables["v-log-json"];
+                            string response_str = context.Response.Body?.As<string>(preserveContent: true);
+                            string xpattern = ".* (\"model\".*)\n";
+                            MatchCollection xmatches = Regex.Matches(response_str, xpattern, RegexOptions.Singleline);
+                            int xcnt = 0;
+                            foreach (Match xmatch in xmatches){ //cannot use xmatches.Count to check match due to exception
+                                xcnt++; 
+                                if (xcnt==1){
+                                    string embedding_usage = "{" + xmatch.Groups[1].Value ;
+                                    log_json.Add("ResponseString",embedding_usage);
+                                }
+                            }
+                            if (xcnt == 0){
+                                log_json.Add("ResponseString",response_str);
+                            }
+
+                            return log_json.ToString();
+                        }</log-to-eventhub>
+					</when>
+				</choose>
+			</when>
+		</choose>
+	</outbound>
+	<on-error>
+		<base />
+	</on-error>
+</policies>

@@ -1,0 +1,8 @@
+Request
+===================
+{"model": "text-davinci-003", "prompt": "Write a tagline for an ice cream shop."}
+
+
+Response
+===================
+{"id":"cmpl-8Pi41enwHJCs1DKzEVKDQAIB4mJZe","object":"text_completion","created":1701138273,"model":"text-davinci-003","choices":[{"text":"\n\n\"Delicious, Creamy, and Chilly — Sweet Treats","index":0,"finish_reason":"length","logprobs":null}],"usage":{"prompt_tokens":10,"completion_tokens":16,"total_tokens":26}}
