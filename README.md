@@ -22,7 +22,7 @@ This solution also **supports disable stream capture at APIM**, which provide st
 
 - Create Azure OpenAI instance at corresponding region
 - Deploy all models needed for business
-- <a name="anchor1"/>Remeber Azure OpenAI instance endpoint (_`https://<aoai_endpoint_name>.openai.azure.com/`_) and access key _`<aoai_endpoint_access_key>`_ which will be used later
+- <a name="anchor1"></a>Remeber Azure OpenAI instance endpoint (_`https://<aoai_endpoint_name>.openai.azure.com/`_) and access key _`<aoai_endpoint_access_key>`_ which will be used later
 
 ### Proxy Tier (Azure Resources)
 
