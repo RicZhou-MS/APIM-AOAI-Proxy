@@ -4,9 +4,7 @@
     </inbound>
     <backend>
         <base />
-        <!--
-        <forward-request buffer-response="true" />
-        -->
+        <!-- <forward-request buffer-response="true" /> -->
     </backend>
     <outbound>
         <base />

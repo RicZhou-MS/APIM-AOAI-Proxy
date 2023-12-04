@@ -2,9 +2,9 @@
 	<inbound>
 		<base />
 		<!--specify forward to which backend openai endpoint and corresponding openai key, which can be enhanced to support load blance in next version -->
-		<set-backend-service backend-id="aoai-backend02" />
+		<!-- <set-backend-service backend-id="aoai-backend02" /> -->
 		<set-header name="api-key" exists-action="override">
-			<value>{{aoai-backend02-key}}</value>
+			<value>{{azure-openai-key}}</value>
 		</set-header>
 		<set-variable name="v-capture-setting" value="{{capture-streaming}}" />
 		<set-variable name="v-do-capture-streaming" value="@(((string)context.Variables["v-capture-setting"])?.Equals("true",StringComparison.OrdinalIgnoreCase) ?? false)" />
@@ -15,6 +15,7 @@
 		<set-variable name="v-is-chat-completion-call" value="@(context.Operation.Id.Equals("ChatCompletions_Create", StringComparison.OrdinalIgnoreCase))" />
 	</inbound>
 	<backend>
+		<!-- <base /> -->
 		<forward-request buffer-response="true" />
 	</backend>
 	<outbound>

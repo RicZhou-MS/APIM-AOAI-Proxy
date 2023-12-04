@@ -2,13 +2,14 @@
 	<inbound>
 		<base />
 		<!--specify forward to which backend openai endpoint and corresponding openai key -->
-		<set-backend-service backend-id="aoai-backend02" />
+		<!-- <set-backend-service backend-id="aoai-backend02" /> -->
 		<set-header name="api-key" exists-action="override">
-			<value>{{aoai-backend02-key}}</value>
+			<value>{{azure-openai-key}}</value>
 		</set-header>
 		<set-variable name="v-request-json" value="@(context.Request.Body?.As<string>(preserveContent: true))" />
 	</inbound>
 	<backend>
+		<!-- <base /> -->
 		<forward-request buffer-response="true" />
 	</backend>
 	<outbound>
