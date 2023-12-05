@@ -91,10 +91,10 @@ Login Azure portal and create following resources, here use Azure China as examp
 - When the import creation complete, click **setting**, rename the subscription key verification header as **api-key**.
   ![Alt text](images/image-3.png)
 - Create a named value for your Azure OpenAI API key. To creat a named value, see [using named values in Azure API Management polices](https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-properties?tabs=azure-portal). Take note of the Display name you give your named value as it is needed in next steps. Here we set the name display name as _**azure-openai-key**_. set the Type as **Secret**, and set the secret value as your Azure OpenAI endpoint access key _`<aoai_endpoint_access_key>`_ which created at [previous step](#anchor1)
-  ![Alt text](images/image-4.png)
+  <img src="images/image-4.png" width="500" height="200">
 - Similarly, add another named value with Name and Display name as _**capture-streaming**_,set the Type as **Plain**, set the value as _**True**_  
   **NOTE**: You can set it to _**False**_ if you want to only capture streaming _request_ playload without capturing _response_ payload, this will give end-user real streaming experience.
-  ![Alt text](images/image-5.png)
+  <img src="images/image-5.png" width="400" height="250">
 - Go to **Products** at APIM blade menu add a new product with name **_openai-product_**.
 - Click into the newly created product, add the imported OpenAI APIs into the product.
   ![Alt text](images/image-8.png)
@@ -142,5 +142,11 @@ Login Azure portal and create following resources, here use Azure China as examp
 - After DB connection updated, make sure all the visual can be correctly loaded. then click **File**, choose **Publish** to publish the report to your PBI service portal.
 - Load the report at PBI service, check if the report loaded correctly as following capture.
   ![Alt text](images/image-17.png)
-  **NOTE**: If there is no cost calculated in the report, please make sure all the model/deployment name you used in your environment match with the model name defined in _**AoaiTokenRate**_ table.
-  ![Alt text](images/image-21.png)
+
+### Troubleshoot
+
+1. If there is no cost calculated in the report, please make sure all the model/deployment name you used in your environment match with the model name defined in _**AoaiTokenRate**_ table.
+   ![Alt text](images/image-21.png)
+2. To be added...
+
+\<End>
