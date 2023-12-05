@@ -32,6 +32,7 @@ Login Azure portal and create following resources, here use Azure China as examp
 - **API Management**: Choose Developer tier or other tiers denpends on your environment and VNET integration needs, but don't choose consumption tier.
 - **Event Hub**: Any tier can be chosen.
 - **Function App**: Create Azure Function App resource with below configuration
+  - _Code or Container Image_ - Code
   - _Runtime stack_ - Python
   - _Version_ - 3.11
   - _Operating System_ - Linux
