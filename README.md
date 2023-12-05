@@ -126,7 +126,7 @@ Login Azure portal and create following resources, here use Azure China as examp
   ![Alt text](images/image-13.png)
 - Wait for deployment complete, and click **Upload settings** at the popup windows at the end of deployment as below capture.
   ![Alt text](images/image-14.png)
-  **NOTE**: If you prefer using CI/CD to deploy Azure Function App, please refer to [How To Create and Deploy a Python Azure Function Using Azure DevOps CI/CD](https://medium.com/globant/how-to-create-and-deploy-a-python-azure-function-using-azure-devops-ci-cd-2aa8f8675716)
+  **NOTE**: If you prefer to use CI/CD to deploy Azure Function App, please refer to [GitHub Actions for deploying to Azure Functions](https://github.com/Azure/functions-action).
 - Try OpenAI call via postman or SDK, wait for a few seconds and then check the table **ApimAoaiToken** in your SQL DB to see if the token capture records flow through.
 
 ### Power BI report
