@@ -1,6 +1,6 @@
 # APIM-AOAI-Proxy
 
-Setup APIM as Azure OpenAI proxy, capture tokens and store at DB for company internal billing for BU cross charge. **APIM can be created and configured at Global Azure or sovereign cloud (e.g. Azure operated by 21Vianet)**. This article illustrated using 21Vianet Azure cloud host APIM for the solution, if you host APIM at global Azure, the steps should be almost the same. Following is the high level architecture.
+Setup APIM as Azure OpenAI proxy, capture tokens and store at DB for company internal billing cross charge. **APIM can be created and configured at Global Azure or sovereign cloud (e.g. Azure operated by 21Vianet)**. This article illustrated using 21Vianet Azure cloud host APIM for the solution, if you host APIM at global Azure, the steps should be almost the same. Following is the high level architecture.
 ![Alt text](images/image-22.png)
 In terms of Azure OpenAI stream call, this solution **supports APIM to capture stream response payload** and calculate the tokens at downstream Function API tier, however enable APIM capture stream response payload will seriously impact end-user experience because the Server-send event (SSE) stream has to be cached at APIM for payload capture before APIM forward the flow to client, therefore client will NOT see instant response flow from stream, but will wait untill the response returned as whole at the end. In other words, the behavior become like sychronized call rather than stream call.
 
