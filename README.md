@@ -131,10 +131,14 @@ Login Azure portal and create following resources, here use Azure China as examp
 
 ### Power BI report
 
-- Open **[AOAI_Token_Billing_20231205.pbix](PBIReport/AOAI_Token_Billing_20231205.pbix)** file with Power BI desktop. click **Transform data**, then click **Data source settings**.
+- Open **[AOAI_Token_Billing_20231205.pbix](PBIReport/AOAI_Token_Billing_20231205.pbix)** file with Power BI desktop. Click **Cancel** if there is any login window pop up untill all visuals loaded.
+  ![Alt text](images/image-19.png)
+- click **Transform data**, then click **Data source settings**.
   ![Alt text](images/image-15.png)
 - click the data source, and then click **Change Source**, provide your SQL database server name and db name, as well as the authentication information.
   ![Alt text](images/image-16.png)
+- Then click **Edit Permission** to update login account
+  ![Alt text](images/image-20.png)
 - After DB connection updated, make sure all the visual can be correctly loaded. then click **File**, choose **Publish** to publish the report to your PBI service portal.
 - Load the report at PBI service, check if the report loaded correctly as following capture.
   ![Alt text](images/image-17.png)
