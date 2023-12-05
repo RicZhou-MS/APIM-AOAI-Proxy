@@ -11,12 +11,12 @@ This solution also **supports disable stream capture at APIM**, which provide st
 ### Tool Machine
 
 - Install **[Python](https://www.python.org/downloads/)** into tool machine, here use v3.11
-- Install **VSCode**, and then
-  - Install [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python).
-  - Install **Azure Account** extension. (**NOTE**: Refer to [this KB](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/others/aog-others-howto-login-china-azure-by-vscode) for how to configure Vscode for login Sovereign Cloud. e.g. Azure China)
+- Install **[VSCode](https://code.visualstudio.com/download)**, and then
+  - Install **[Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)**.
+  - Install **[Azure Account](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-account)** extension. (**NOTE**: Refer to [this KB](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/others/aog-others-howto-login-china-azure-by-vscode) for how to configure Vscode for login Sovereign Cloud. e.g. Azure China)
   - Install **[Azure Resources](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureresourcegroups)** extension. Please use v0.75 rather than v0.80(preview) as v0.80 has bug and unable support sovereign cloud login at the moment I write this blog.
-  - Install **Azure Function** extension.
-  - Install **Azure API Management** extesion(Optional).
+  - Install **[Azure Function](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions)** extension.
+  - Install **[Azure API Management](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-apimanagement)** extesion(Optional).
 - Install **[Power BI desktop](https://www.microsoft.com/en-us/download/details.aspx?id=58494)**
 
 ### Azure OpenAI
@@ -51,9 +51,9 @@ Login Azure portal and create following resources, here use Azure China as examp
 
 - <a name="anchor3"></a>Go to the Event Hub Namespace which just created at above steps, create a event hub instance, remeber instance name for later use.
 - <a name="anchor4"></a>Click **Shared access policies** of the instance, create a SAS Policy and give **Send** and **Listen** policy, remember the **connection string** for later use.
-  ![Alt text](images/image.png)
+  <img src="images/image.png" width="680" height="310">
 - Click **Consumer group**, and create a new consumer group with name **_apim_aoai_eventhub_consumer_group_**.
-  ![Alt text](images/image-18.png)
+  <img src="images/image-18.png" width="600" height="340">
 
 ### APIM
 
