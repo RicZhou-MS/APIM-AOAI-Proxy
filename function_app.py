@@ -50,7 +50,7 @@ class ApimAoaiToken:
 # Function entry point for handling Azure Event Hub messages
 
 
-@app.event_hub_message_trigger(arg_name="azevents", event_hub_name="adreporthub01",
+@app.event_hub_message_trigger(arg_name="azevents", event_hub_name="<event hub instance name>",
                                connection="AOAI_APIM_EVENTHUB_CONNECTION", consumer_group="apim_aoai_eventhub_consumer_group", cardinality="many", data_type="string")
 def apim_aoai_eventhub_trigger(azevents):
     for event in azevents:

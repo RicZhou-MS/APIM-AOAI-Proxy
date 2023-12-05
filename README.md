@@ -10,13 +10,14 @@ This solution also **supports disable stream capture at APIM**, which provide st
 
 ### Tool Machine
 
-- Install [Python](https://www.python.org/downloads/) into tool machine, here use v3.11
-- Install VSCode
+- Install **[Python](https://www.python.org/downloads/)** into tool machine, here use v3.11
+- Install **VSCode**, and then
   - Install [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python).
   - Install **Azure Account** extension. (**NOTE**: Refer to [this KB](https://docs.azure.cn/zh-cn/articles/azure-operations-guide/others/aog-others-howto-login-china-azure-by-vscode) for how to configure Vscode for login Sovereign Cloud. e.g. Azure China)
   - Install **[Azure Resources](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureresourcegroups)** extension. Please use v0.75 rather than v0.80(preview) as v0.80 has bug and unable support sovereign cloud login at the moment I write this blog.
   - Install **Azure Function** extension.
-  - Install **Azure API Management** extesion.
+  - Install **Azure API Management** extesion(Optional).
+- Install **[Power BI desktop](https://www.microsoft.com/en-us/download/details.aspx?id=58494)**
 
 ### Azure OpenAI
 
@@ -35,7 +36,8 @@ Login Azure portal and create following resources, here use Azure China as examp
   - _Version_ - 3.11
   - _Operating System_ - Linux
   - _Hosting Plan_ - any plan except Consumption plan
-- **SQL Database**: Any SKU can be chosen depends on your workload, meanwhile configure appropriate firewall rule which can allow access from your Azure Function App, your tool machine, as well as Power BI service.
+  - _Monitoring_ - Set Application Insights enabled and configured
+- <a name="anchor5"></a>**SQL Database**: Create a SQL database with name **_aoaieventdb_**, any SKU can be chosen depends on your workload, meanwhile configure appropriate firewall rule which can allow access from your Azure Function App, your tool machine, as well as Power BI service.
 
 ## Environment Setup
 
@@ -46,9 +48,11 @@ Login Azure portal and create following resources, here use Azure China as examp
 
 ### Event Hub
 
-- Go to the Event Hub Namespace which just created at above steps, create a event hub instance
-- Click **Shared access policies** of the instance, create a SAS Policy and give **Send** and **Listen** policy, remember the **connection string** for later use.
+- <a name="anchor3"></a>Go to the Event Hub Namespace which just created at above steps, create a event hub instance, remeber instance name for later use.
+- <a name="anchor4"></a>Click **Shared access policies** of the instance, create a SAS Policy and give **Send** and **Listen** policy, remember the **connection string** for later use.
   ![Alt text](images/image.png)
+- Click **Consumer group**, and create a new consumer group with name **_apim_aoai_eventhub_consumer_group_**.
+  ![Alt text](images/image-18.png)
 
 ### APIM
 
@@ -103,8 +107,33 @@ Login Azure portal and create following resources, here use Azure China as examp
 - Copy all the policies from [this policy file](<APIM*Product_Policy/TokenCaptureProduct(parent).xml>), and paste into current policy edit page content, and **Save** the policy
   ![Alt text](images/image-10.png)
   **NOTE**: If you configured different API Management logger name at [previous step](#anchor2), you should update all relavant logger-id at all \_logger-id="**event-hub-logger**"\* accordingly before Save.
+- Try OpenAI API call via APIM by Postman or OpenAI SDK with following information
+  - **azure_endpoint**: Use your APIM gateway URL, e.g _https://\<apim-name\>.azure-api.cn/_ (Azure China) or _https://\<apim-name\>.azure-api.net_ (Global Azure)
+  - **api_key**: Use your APIM subscription key
+  - **model**: Use your Azure OpenAI model **deployment name** (_NOTE_: Suggest to set deployment to be same as model name)
+  - **api_version**: Use any version that Azure OpenAI supported
+- After successful Opena API call test, go to event hub and check **Incoming Message** Metrics, if metric indicates message came in, it means API call had been successfully captured by APIM and delivered to eventhub
+  ![Alt text](images/image-11.png)
 
 ### Function App
 
-- click to [previous step](#anchor1)
-  (**NOTE**: [How To Create and Deploy a Python Azure Function Using Azure DevOps CI/CD](https://medium.com/globant/how-to-create-and-deploy-a-python-azure-function-using-azure-devops-ci-cd-2aa8f8675716))
+- Clone this repository onto tool machine local, and open with VScode.
+- Open [function_app.py](function_app.py) and go to line 53, find parameter **_event_hub_name="\<event hub instance name\>"_** and set the parameter value as your event hub instance name that created at [previous step](#anchor3). Then save the file.
+- Open [local.settings.json](local.settings.json) file, set value of **AOAI_APIM_EVENTHUB_CONNECTION** as your event hub instance connection string which created at [previous step](#anchor4). Similarly, set value of **AOAI_DB_STORE_CONNECTION** as your SQL DB connection string which created at [previous step](#anchor5), privode corresponding _**server name**_, _**DB name**_, _**user name**_ and **_password_** in the connection string.
+  ![Alt text](images/image-12.png)
+- Click **Azure** extension, click **RESOURCES** extension, log into your Azure subscription, choose the Function App which created previously, and choose **Deployment to Function App** as below capture
+  ![Alt text](images/image-13.png)
+- Wait for deployment complete, and click **Upload settings** at the popup windows at the end of deployment as below capture.
+  ![Alt text](images/image-14.png)
+  **NOTE**: If you prefer using CI/CD to deploy Azure Function App, please refer to [How To Create and Deploy a Python Azure Function Using Azure DevOps CI/CD](https://medium.com/globant/how-to-create-and-deploy-a-python-azure-function-using-azure-devops-ci-cd-2aa8f8675716)
+- Try OpenAI call via postman or SDK, wait for a few seconds and then check the table **ApimAoaiToken** in your SQL DB to see if the token capture records flow through.
+
+### Power BI report
+
+- Open **[AOAI_Token_Billing_20231205.pbix](PBIReport/AOAI_Token_Billing_20231205.pbix)** file with Power BI desktop. click **Transform data**, then click **Data source settings**.
+  ![Alt text](images/image-15.png)
+- click the data source, and then click **Change Source**, provide your SQL database server name and db name, as well as the authentication information.
+  ![Alt text](images/image-16.png)
+- After DB connection updated, make sure all the visual can be correctly loaded. then click **File**, choose **Publish** to publish the report to your PBI service portal.
+- Load the report at PBI service, check if the report loaded correctly as following capture.
+  ![Alt text](images/image-17.png)

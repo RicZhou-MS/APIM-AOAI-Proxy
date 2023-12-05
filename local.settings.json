@@ -1,7 +1,6 @@
 {
   "IsEncrypted": false,
   "Values": {
-    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=<storageAcountName>;AccountKey=<Storage Access Key>;EndpointSuffix=<storage account suffix, e.g core.chinacloudapi.cn>",
     "FUNCTIONS_WORKER_RUNTIME": "python",
     "AzureWebJobsFeatureFlags": "EnableWorkerIndexing",
     "AOAI_APIM_EVENTHUB_CONNECTION": "Endpoint=sb://<event hub namespace>.servicebus.chinacloudapi.cn/;SharedAccessKeyName=<access key name>;SharedAccessKey=<access key>;EntityPath=<event hub name>",
