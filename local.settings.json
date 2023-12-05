@@ -4,6 +4,6 @@
     "FUNCTIONS_WORKER_RUNTIME": "python",
     "AzureWebJobsFeatureFlags": "EnableWorkerIndexing",
     "AOAI_APIM_EVENTHUB_CONNECTION": "Endpoint=sb://<event hub namespace>.servicebus.chinacloudapi.cn/;SharedAccessKeyName=<access key name>;SharedAccessKey=<access key>;EntityPath=<event hub name>",
-    "AOAI_DB_STORE_CONNECTION": "Driver={ODBC Driver 18 for SQL Server};Server=tcp:<sqldbsrv name>.database.chinacloudapi.cn,1433;Database=<db name>;Uid=<user>;Pwd=<password>;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
+    "AOAI_DB_STORE_CONNECTION": "Driver={ODBC Driver 18 for SQL Server};Server=tcp:<azure sqldbsrv name>,1433;Database=<db name>;Uid=<user>;Pwd=<password>;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
   }
 }

@@ -66,7 +66,7 @@ Login Azure portal and create following resources, here use Azure China as examp
 
   # Create logger
   $context = New-AzApiManagementContext -ResourceGroupName $resourceGroupName -ServiceName $apimServiceName
-  New-AzApiManagementLogger -Context $context -LoggerId "event-hub-logger" -Name "<your event hub name>" -ConnectionString "<your event hub connection string>" -Description "Event hub logger with connection string"
+  New-AzApiManagementLogger -Context $context -LoggerId "event-hub-logger" -Name "<your event hub namespace name>" -ConnectionString "<your event hub connection string>" -Description "Event hub logger with connection string"
   ```
 
   (**NOTE**: Make sure LoggerId set to _**event-hub-logger**_,otherwise you will need change loggerId in APIM policy at later steps accordingly)
