@@ -105,7 +105,7 @@ Login Azure portal and create following resources, here use Azure China as examp
   ![Alt text](images/image-6.png)
 - Click **Policies** in this Product, and then click the **edit policy icon** as below capture
   ![Alt text](images/image-9.png)
-- Copy all the policies from [this policy file](<APIM*Product_Policy/TokenCaptureProduct(parent).xml>), and paste into current policy edit page content, and **Save** the policy
+- Copy all the policies from [this policy file](<APIM_Product_Policy/TokenCaptureProduct(parent).xml>), and paste into current policy edit page content, and **Save** the policy
   ![Alt text](images/image-10.png)
   **NOTE**: If you configured different API Management logger name at [previous step](#anchor2), you should update all relavant logger-id at all \_logger-id="**event-hub-logger**"\* accordingly before Save.
 - Try OpenAI API call via APIM by Postman or OpenAI SDK with following information
