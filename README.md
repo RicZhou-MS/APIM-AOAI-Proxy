@@ -142,3 +142,5 @@ Login Azure portal and create following resources, here use Azure China as examp
 - After DB connection updated, make sure all the visual can be correctly loaded. then click **File**, choose **Publish** to publish the report to your PBI service portal.
 - Load the report at PBI service, check if the report loaded correctly as following capture.
   ![Alt text](images/image-17.png)
+  **NOTE**: If there is no cost calculated in the report, please make sure all the model/deployment name you used in your environment match with the model name defined in _**AoaiTokenRate**_ table.
+  ![Alt text](images/image-21.png)
