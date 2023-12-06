@@ -52,7 +52,7 @@ Login Azure portal and create following resources, here use Azure China as examp
 - <a name="anchor3"></a>Go to the Event Hub Namespace which just created at above steps, create a event hub instance, remeber instance name for later use.
 - <a name="anchor4"></a>Click **Shared access policies** of the instance, create a SAS Policy and give **Send** and **Listen** policy, remember the **connection string** for later use.  
   <img src="images/image.png" width="680" height="310">
-- Click **Consumer group**, and create a new consumer group with name **_apim_aoai_eventhub_consumer_group_**.
+- <a name="anchor10"></a>Click **Consumer group**, and create a new consumer group with name **_apim_aoai_eventhub_consumer_group_**.
   <img src="images/image-18.png" width="600" height="340">
 
 ### APIM
@@ -127,14 +127,14 @@ Login Azure portal and create following resources, here use Azure China as examp
   - **api_key**: Use your APIM subscription key
   - **model**: Use your Azure OpenAI model **deployment name** (_NOTE_: Suggest to set deployment to be same as model name)
   - **api_version**: Use any version that Azure OpenAI supported
-- After successful Opena API call test, go to event hub and check **Incoming Message** Metrics, if metric indicates message came in, it means API call had been successfully captured by APIM and delivered to eventhub
+- <a name="anchor7"></a>After successful Opena API call test, go to event hub and check **Incoming Message** Metrics, if metric indicates message came in, it means API call had been successfully captured by APIM and delivered to eventhub
 
   <img src="images/image-11.png" width="650" height="380">
 
 ### Function App
 
 - Clone this repository onto tool machine local, and open with VScode.
-- Open [function_app.py](function_app.py) and go to line 53, find parameter **_event_hub_name="\<event hub instance name\>"_** and set the parameter value as your event hub instance name that created at [previous step](#anchor3). Then save the file.
+- <a name="anchor8"></a>Open [function_app.py](function_app.py) and go to line 53, find parameter **_event_hub_name="\<event hub instance name\>"_** and set the parameter value as your event hub instance name that created at [previous step](#anchor3). Then save the file.
 - Open [local.settings.json](local.settings.json) file, set value of **AOAI_APIM_EVENTHUB_CONNECTION** as your event hub instance connection string which created at [previous step](#anchor4). Similarly, set value of **AOAI_DB_STORE_CONNECTION** as your SQL DB connection string which created at [previous step](#anchor5), privode corresponding _**server name**_, _**DB name**_, _**user name**_ and **_password_** in the connection string.
 
   <img src="images/image-12.png" width="650" height="320">
@@ -143,7 +143,7 @@ Login Azure portal and create following resources, here use Azure China as examp
 
   <img src="images/image-13.png" width="500" height="500">
 
-- Wait for deployment complete, and click **Upload settings** at the popup windows at the end of deployment as below capture.
+- <a name="anchor9"></a>Wait for deployment complete, and click **Upload settings** at the popup windows at the end of deployment as below capture.
 
   <img src="images/image-14.png" width="650" height="400">
 
@@ -174,12 +174,30 @@ Login Azure portal and create following resources, here use Azure China as examp
 
   <img src="images/image-17.png" width="800" height="540">
 
-### Troubleshoot
+### Troubleshooting
 
-1. If there is no cost calculated in the report, please make sure all the model/deployment name you used in your environment match with the model name defined in _**AoaiTokenRate**_ table.
+1. **There is no cost calculated in the report**
+
+   - please make sure all the model/deployment name you used in your environment match with the model name defined in _**AoaiTokenRate**_ table.
 
    <img src="images/image-21.png" width="650" height="440">
 
-2. To be added...
+2. **Power BI report rendering is slow**
+   - Power Bi report currently is using Direct Query mode instead of Import. so when more data flowed into SQLDB, PBI report query worload agains SQLDB will increase, you can consider **scale up** SQLDB or change the report from **DQ to Import mode**.
+3. **Power BI report cannot be loaded**
+   - Check SQLDB credential at report dataset setting page at PBI service portal.
+   - Check firewall setting at SQLDB.
+4. **No data captured into SQLDB**
+
+   - Check event hub metrics as [this previous step](#anchor7) to see if message was captured at APIM and sent to eventhub. If not, check and make sure your [APIM logger configuration](#anchor2) is correct, as well as appropriate network firewall setting at eventhub.
+   - Make sure the eventhub connection string at Application setting (which was uploaded at [this step](#anchor9)) .
+   - Make sure event hub name defined in Function app python code is correct as [this step](#anchor8).
+   - Make sure consumer group **_apim_aoai_eventhub_consumer_group_** is created at event hub as [this step](#anchor10), and same as the name defined at line 54 of [function_app.py](function_app.py).
+   - Make sure SQLDB has appropriate firewall rule for allowing Function App access.
+   - At Function App, enable application insight and Diagnostic Settings (send **FunctionAppLogs** to Log Analytics workspace). and then open **log stream** at Function App and switch to **Filesystem log**, perform OpenAI SDK call, and observe if any exception throw at log stream.
+
+      <img src="images/image-23.png" width="650" height="440">
+
+   - In addition, go to corresponding Application Insight and Log Analytics workspace to check any exception raised.
 
 \<End>
