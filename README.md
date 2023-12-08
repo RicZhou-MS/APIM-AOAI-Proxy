@@ -190,7 +190,7 @@ Login Azure portal and create following resources, here use Azure China as examp
 4. **No data captured into SQLDB**
 
    - Check event hub metrics as [this previous step](#anchor7) to see if message was captured at APIM and sent to eventhub. If not, check and make sure your [APIM logger configuration](#anchor2) is correct, as well as appropriate network firewall setting at eventhub.
-   - Make sure the eventhub connection string at Application setting (which was uploaded at [this step](#anchor9)) .
+   - Make sure the eventhub connection string at Application setting is correct(which was uploaded at [this step](#anchor9)) .
    - Make sure event hub name defined in Function app python code is correct as [this step](#anchor8).
    - Make sure consumer group **_apim_aoai_eventhub_consumer_group_** is created at event hub as [this step](#anchor10), and same as the name defined at line 54 of [function_app.py](function_app.py).
    - Make sure SQLDB has appropriate firewall rule for allowing Function App access.
