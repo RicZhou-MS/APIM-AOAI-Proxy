@@ -13,8 +13,8 @@ app = func.FunctionApp()
 
 class ApimAoaiToken:
     def __init__(self,
-                 ExecTimeUTC="19700101 00:00:00",
-                 ExecDateUTC="19700101",
+                 ExecTimeUTC="1970-01-01 00:00:00",
+                 ExecDateUTC="1970-01-01",
                  GatewayRegion="",
                  GatewayServiceName="",
                  SubscriptionId="",
@@ -269,7 +269,8 @@ def insert_aoai_token(aoai_token: ApimAoaiToken):
 
 def compose_aoai_token(json_data):
     aoai_token = ApimAoaiToken()
-    aoai_token.ExecTimeUTC = json_data.get('ExecTimeUTC', '19700101 00:00:00')
+    aoai_token.ExecTimeUTC = json_data.get(
+        'ExecTimeUTC', '1970-01-01 00:00:00')
     # get the date part of "yyyy-MM-dd HH:mm:ss"
     aoai_token.ExecDateUTC = aoai_token.ExecTimeUTC[0:10]
     aoai_token.GatewayRegion = json_data.get('GatewayRegion', '')
