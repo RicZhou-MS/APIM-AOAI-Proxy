@@ -118,7 +118,7 @@ Login Azure portal and create following resources, here use Azure China as examp
 
 - Copy all the policies from [this policy file](<APIM_Product_Policy/TokenCaptureProduct(parent).xml>), and paste into current policy edit page content, and **Save** the policy
 
-  <img src="images/image-3.png" width="650" height="540">
+  <img src="images/image-10.png" width="650" height="400">
 
   **NOTE**: If you configured different API Management logger name at [previous step](#anchor2), you should update all relavant logger-id at all \_logger-id="**event-hub-logger**"\* accordingly before Save.
 
