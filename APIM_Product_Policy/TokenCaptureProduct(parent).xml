@@ -105,7 +105,7 @@
 							<!-- proceed Completion call in streaming mode -->
 							<when condition="@((bool)context.Variables["v-is-streaming"])">
 								<choose>
-									<!-- capture streaming for chat completion -->
+									<!-- capture streaming for completion -->
 									<when condition="@((bool)context.Variables["v-do-capture-streaming"])">
 										<log-to-eventhub logger-id="event-hub-logger">@{
                                             JObject log_json = (JObject)context.Variables["v-log-json"];
@@ -123,7 +123,7 @@
                                             return log_json.ToString();
                                         }</log-to-eventhub>
 									</when>
-									<!-- do NOT capture streaming content for chat completion -->
+									<!-- do NOT capture streaming content for completion -->
 									<otherwise>
 										<log-to-eventhub logger-id="event-hub-logger">@{
                                             JObject log_json = (JObject)context.Variables["v-log-json"];
