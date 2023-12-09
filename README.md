@@ -202,5 +202,5 @@ Login Azure portal and create following resources, here use Azure China as examp
 
 ### Question or Issue
 
-- Please leave your question or issue at [Issues](APIM-AOAI-Proxy/issues)  
+- Please leave your question or issue at [Issues](https://github.com/RicZhou-MS/APIM-AOAI-Proxy/issues)  
   \<End>
