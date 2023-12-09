@@ -200,4 +200,7 @@ Login Azure portal and create following resources, here use Azure China as examp
 
    - In addition, go to corresponding Application Insight and Log Analytics workspace to check any exception raised.
 
-\<End>
+### Question or Issue
+
+- Please leave your question or issue at [Issues](APIM-AOAI-Proxy/issues)  
+  \<End>
